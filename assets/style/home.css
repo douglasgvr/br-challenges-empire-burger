@@ -169,3 +169,107 @@ header {
 
   text-decoration: none;
 }
+
+/* seção hero banner */
+
+.hero-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-banner-texto-artesanal h1,
+.hero-banner-texto-atendimento h1,
+.hero-banner-texto-deliveryspeed h1 {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+
+  color: rgba(29, 6, 5, 0.9);
+}
+
+.hero-banner-texto-artesanal p,
+.hero-banner-texto-atendimento p,
+.hero-banner-texto-deliveryspeed p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: rgba(29, 6, 5, 0.69);
+
+  opacity: 0.6;
+}
+
+.hero-banner-texto {
+  width: 970px;
+  height: 118.54px;
+  margin-top: 108px;
+
+  background: #ffffff;
+  /* Shadow */
+
+  box-shadow: 0px 4px 40px rgba(179, 155, 132, 0.5);
+  border-radius: 10px;
+
+  display: flex;
+}
+
+.hero-banner-texto-1,
+.hero-banner-texto-2,
+.hero-banner-texto-3 {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 18px;
+}
+
+.hero-banner-texto-img {
+  width: 70px;
+  height: 60px;
+
+  background-color: #fae2cb;
+
+  border-radius: 50%;
+  padding: 14.5px;
+
+  text-align: center;
+}
+
+.hero-banner-texto-1 {
+  margin-left: 25px;
+}
+
+.hero-banner-texto-2 {
+  margin: 0 85px;
+  position: relative;
+}
+
+.hero-banner-texto-2::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 83.53px;
+  right: -50px;
+
+  border: 1px solid rgba(73, 46, 21, 0.15);
+}
+
+.hero-banner-texto-2::before {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 83.53px;
+  left: -50px;
+
+  border: 1px solid rgba(73, 46, 21, 0.15);
+}
+
+.hero-banner-texto-3 {
+  margin-right: 35px;
+}
