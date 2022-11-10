@@ -1,0 +1,14 @@
+.cardapio-container {
+  margin-top: 64px;
+  background: url("../../public/img/banner-menu.png") no-repeat;
+  height: 545px;
+}
+
+.cardapio {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.cardapio-hero {
+  text-align: center;
+}

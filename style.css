@@ -1,5 +1,6 @@
 @import "./assets/style/home.css";
 @import "./assets/style/promocao.css";
+@import "./assets/style/cardapio.css";
 
 :root {
   --title-black-60: #635352;
