@@ -34,16 +34,18 @@ header {
   gap: 16px;
 }
 
-.header-nav ul li {
+.header-nav ul li a {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   color: var(--title-black-60);
+
+  text-decoration: none;
 }
 
-.header-nav ul li:hover {
+.header-nav ul li a:hover {
   font-weight: 700;
   cursor: pointer;
 }
@@ -146,7 +148,7 @@ header {
   line-height: 32px;
 }
 
-.hero button {
+.hero-btn {
   width: 198.64px;
   height: 52.32px;
 
@@ -158,7 +160,7 @@ header {
   margin-top: 15px;
 }
 
-.hero button a {
+.hero-btn a {
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;

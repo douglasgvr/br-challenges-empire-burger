@@ -7,3 +7,133 @@
 
   margin: 0 auto;
 }
+
+.promocao-titulo h1 {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+
+  text-transform: uppercase;
+
+  color: rgba(29, 6, 5, 0.9);
+
+  margin-bottom: 4px;
+}
+
+.promocao-titulo p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: rgba(29, 6, 5, 0.69);
+
+  margin-bottom: 16px;
+}
+
+.promocao-grid-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.promocao-horario {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  margin-top: 60px;
+}
+
+.promocao-horario-img {
+  margin-left: 22.3px;
+}
+
+.promocao-grid-img img {
+  max-width: 100%;
+}
+
+.grid-img-1 {
+  width: 770px;
+}
+
+.grid-img-2 {
+  width: 371px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px;
+}
+
+.promocao-horario-grid {
+  width: 570px;
+  height: 130.93px;
+
+  background: #f43127;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.promocao-horario-img {
+  width: 94.83px;
+  height: 94.83px;
+
+  border-radius: 50%;
+
+  background: rgba(29, 6, 5, 0.2);
+
+  display: flex;
+  align-items: center;
+
+  padding-left: 23px;
+}
+
+.promocao-horario-texto {
+  margin-left: 30.91px;
+}
+
+.promocao-horario-texto h1 {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+
+  text-transform: uppercase;
+
+  color: rgba(29, 6, 5, 0.69);
+}
+
+.promocao-horario-texto p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.promocao-texto-2 p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: rgba(29, 6, 5, 0.69);
+}
+
+.promocao-texto-2 span {
+  font-family: "Lilita One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28.0202px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #f43127;
+}
